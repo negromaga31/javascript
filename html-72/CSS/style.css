@@ -1,0 +1,48 @@
+body{
+   background-color:rgb(43, 40, 40);
+   color: #fff;
+}
+.wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+.black-square{
+   background-color:gray;
+   border-radius: 5%;
+   width: 250px;
+   height: 250px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #7de07d;
+   font-size: 30px;
+}
+.black-square span{
+   opacity: 0;
+}
+.black-square__wrap{
+   position: absolute;
+   top: -100px;
+   left: -300px;
+   right: 600px;
+   height: 30px;
+   background-color: #e2cbcb;
+}
+.black-square:hover .black-square__wrap{
+   right: -300px;   
+}
+.black-square:hover span{
+   opacity: 1;
+}
+.black-square__wrap{
+transition: 3s;
+}
+.black-square p{
+transition: 1s 3s;
+transition-delay: 3s;
+}
+
+

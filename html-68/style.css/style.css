@@ -1,0 +1,19 @@
+.gray-square{
+   background-color: gray;
+   min-height: 60px;
+   max-height: 150px;
+   max-width: 300px;
+   position: sticky;
+   left: 50%;
+   right: 50px;
+   bottom: 50px;
+}
+.red-circle{
+   background-color:red;
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   position: absolute;
+   left: 30px;
+   top: -14px;
+}

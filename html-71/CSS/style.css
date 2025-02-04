@@ -1,0 +1,38 @@
+body{
+   background-color: rgb(133, 172, 172);
+}
+.box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
+
+.title{
+   position: relative;
+   font-size: 35px;
+}
+.title::before{
+content: "";
+display: block;
+height: 50px;
+width: 50px;
+border-radius:50% ;
+border: solid 3px;
+border-color: white;
+background-color: red;
+position: absolute;
+transform: translate(-75px, 0px);
+}
+.title::after{
+   content: "";
+   display: block;
+   height: 50px;
+   width: 50px;
+   border-radius:50% ;
+   border: solid 3px;
+   border-color: white;
+   background-color: rgb(31, 21, 168);
+   position: absolute;
+transform: translate(170px, -35px)
+   }

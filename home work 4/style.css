@@ -1,0 +1,19 @@
+.text{
+   display: inline-block;
+   border-radius: 6%;
+   margin:  8px;
+   padding: 10px;
+   background-color: #ada660;
+   box-sizing: border-box;
+max-width: 300px;
+border: solid #8d9160 3px;
+}
+
+.main{
+   border: 2px solid black;  
+   border-radius: 15px 0px  0px 15px;
+   max-height: 700px;
+   min-height: 400px;
+   background-color: rgb(172, 175, 212);
+   overflow: auto;
+}
