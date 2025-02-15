@@ -1,9 +1,9 @@
 
-const firstName = 'Bogdan'
-let age = '20'
-let myPet ='dog'
-const myMainJob ='Hockey'
-let hairColor ='black'
+const propName = prompt('Свойство с каким именем добваить в объект?')
+const propValue = prompt(`Какое значение написать в свойство${propName}`)
 
-console.log(firstName,  age,' have hair color', hairColor,)
-console.log(myMainJob , ';', myPet )
+const obj = {
+[propName]: propValue
+}
+
+console.log(obj)
